@@ -2,7 +2,7 @@
 var navbar = document.querySelector('.nav_container')
 
 // Cuando haga scroll
-window.onscroll = () => {
+window.onscroll = () => {}
     // Si hiciste scroll pasando los 20 pixeles desde el top de la pantalla
     if (window.scrollY > 20) {
         // Agregale a la etiqueta con la que te conectaste la clase nav-active
